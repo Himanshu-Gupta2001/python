@@ -1,0 +1,37 @@
+[Running] python -u "c:\Users\gupta\OneDrive\Desktop\Bluejay Delievery\project.py"
+c:\Users\gupta\OneDrive\Desktop\Bluejay Delievery\project.py:1: DeprecationWarning: 
+Pyarrow will become a required dependency of pandas in the next major release of pandas (pandas 3.0),
+(to allow more performant data types, such as the Arrow string type, and better interoperability with other libraries)
+but was not found to be installed on your system.
+If this would cause problems for you,
+please provide us feedback at https://github.com/pandas-dev/pandas/issues/54466
+
+import pandas as pd
+Employees who have worked for 7 consecutive days:
+Empty DataFrame
+Columns: [Employee Name, Position ID]
+Index: []
+
+Employees with less than 10 hours between shifts but greater than 1 hour:
+                        Employee Name Position ID
+53                   CaMaXaWE, CeghaW   WFS000153
+64                   CaMaXaWE, CeghaW   WFS000153
+162                        Xee, XaCar   WFS000200
+173                        Xee, XaCar   WFS000200
+176                        Xee, XaCar   WFS000200
+276              De Xa Cerda, IgWaciE   WFS000318
+301                  MraW, WiXXiaC Ha   WFS000345
+311                  MraW, WiXXiaC Ha   WFS000345
+591                  CEreira Jr, JEse   WFS000456
+708              GAeWdia, JAaW CarXEs   WFS000473
+939              GrACfieXd, CErWeXiAs   WFS000515
+1036  DeXgadiXXE REdarMe, ChrisMiaW S   WFS000523
+1074           HaCiXMEW, DeaWMe DevEW   WFS000536
+1161         REdrigAez, GraWdEW AWgeX   WFS000550
+1327        CarMer, XyWWeXX DejAaW Jr   WFS000576
+
+Employees who have worked for more than 14 hours in a single shift:
+                        Employee Name Position ID
+1036  DeXgadiXXE REdarMe, ChrisMiaW S   WFS000523
+
+[Done] exited with code=0 in 2.007 seconds
